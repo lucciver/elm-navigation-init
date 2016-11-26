@@ -1,3 +1,5 @@
-#counter
+#elm-navigation-init
 
-A simple app that counts up when you click a button.
+A starting point to build a Single Page Application with elm-navigation.
+
+Based from the architecture described on elm-tutorial.org.
