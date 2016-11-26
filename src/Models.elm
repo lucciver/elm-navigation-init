@@ -1,14 +1,17 @@
 module Models exposing (..)
 
-import Routing
+import Widget.Models
+import Routing exposing (Route)
 
 
 type alias Model =
-    { route : Routing.Route
+    { widgetModel : Widget.Models.Model
+    , route : Route
     }
 
 
 initialModel : Routing.Route -> Model
 initialModel route =
-    { route = route
+    { widgetModel = Widget.Models.initialModel
+    , route = route
     }

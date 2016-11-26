@@ -1,7 +1,7 @@
 module Routing exposing (..)
 
 import Navigation exposing (Location)
-import UrlParser as Url exposing ((</>), (<?>), s, int, stringParam, top)
+import UrlParser exposing (..)
 
 
 type Route
@@ -12,7 +12,7 @@ type Route
 route : Parser (Route -> a) a
 route =
     oneOf
-        [ Url.map Home
+        [ map Home top
         ]
 
 

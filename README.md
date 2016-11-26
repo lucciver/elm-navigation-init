@@ -1,3 +1,3 @@
-#elm-navigation-init
+#counter
 
-An architecture for Single Page Applications written in elm.
+A simple app that counts up when you click a button.
